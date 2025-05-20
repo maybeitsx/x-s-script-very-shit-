@@ -65,6 +65,9 @@ local Button = MainTab:CreateButton({
    end,
 })
 
+local MainTab = Window:CreateTab("Other tab", 4483362458) -- Title, Image
+local MainSection = MainTab:CreateSection("x")
+
 local Button = Tab:CreateButton({
    Name = "Allusive",
    Callback = function()
